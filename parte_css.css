@@ -1,9 +1,8 @@
 img{
     width: 150px;
     margin-right: auto;
-    margin-left: 650px;
-    margin-top: 30px;
-    display: block;
+    margin-left: 34%;
+    margin-top: 1.8%;
     position: absolute
 
 }
@@ -11,10 +10,9 @@ img{
     background-color: lightcyan;
     text-align: center;
     align-items: center;
-    margin: 100px;
-    margin-left: 820px;
-    margin-right: 820px;
-    margin-top: 250px;
+    margin-left: 43%;
+    margin-right: 43%;
+    margin-top: 13.5%;
     border-radius: 10px;
     border-style: solid;
     border-color: lightseagreen;
@@ -22,9 +20,11 @@ img{
 #dif_label{
     display: block;
     text-align: left;
-    margin-left: 24px;
-    padding-top: 18px;
+    margin-left: 10%;
     align-items: center;
+}
+.top{
+    margin-top: 7%;
 }
 .dif_input{
     margin-left: auto;
@@ -37,9 +37,6 @@ img{
 #checkbox{
     margin-left: -50px;
     margin-top: 12px;
-}
-p{
-    display: inline-block;
 }
 #button{
     display: block;
