@@ -1,18 +1,10 @@
-function verificarLogin(){
-    var login = document.getElementById("login").value;
-    var password = document.getElementById("password").value;
-
-    if(login == "flavio@basesocial.org"){
-        if(password == "123"){
-            alert("Login Succesfully!")
-        } else{
-            alert("Login failed")
-        }
-
-    }else{
-        alert("Login failed")
+function verificarlogin() {
+    email = document.getElementById("email").value;
+    senha = document.getElementById("senha").value;
+  
+    if (email == "caio@basesocial.org" && senha == "base123") {
+      alert("Usuário logado com sucesso!");
+    } else {
+      alert("Algo deu errado, verifique o e-mail e a senha!");
     }
-    if(login == ""){
-        alert("Insira seus dados!")
-    }
-}
+  }

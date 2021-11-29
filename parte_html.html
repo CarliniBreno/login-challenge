@@ -9,22 +9,25 @@
 </head>
 <body>
     <main>
-        <form>
         <img src="img/logo.png" alt="">
         <div class="div">
+        <form onsubmit="verificarlogin()">
+        
             <label for="login" id="dif_label" class="top">Login:</label>
-            <input type="email" id="login" class="dif_input">
+            <input type="email" id="login" class="dif_input" required>
 
             <label for="password" id="dif_label">Password:</label>
-            <input type="password" id="password" class="dif_input">
+            <input type="password" id="password" class="dif_input" required>
 
             <input type="checkbox" id="checkbox">
             <label for="checkbox">Manter-se conectado?</label>
 
             <input type="submit" name="fazer login" value="Fazer login" id="button">
-        </div>
         </form>
+        </div>
+        
     </main>
+
     <script src="parte_js.js"></script>
 </body>
 </html>
